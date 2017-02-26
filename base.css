@@ -1,0 +1,45 @@
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+div{
+	padding: 20px;
+    border: 1px solid #999;
+}
+
+.container{
+	background: #eee;
+	height: 100%;
+	overflow:hidden;
+}
+
+.one,.two,.three{
+	margin-left: 20px;
+}
+
+.one{
+	width: 200px;
+	float: left;
+	background: white;
+}
+
+.two{
+    float: left;
+    background: white;
+}
+
+.three{
+	width: 120px;
+	float: left;
+	background: white;
+}
+
+.logo{
+	background: #eee;
+	height: 80px;
+	width: 80px;
+	margin: 10px 0;
+	
+}
