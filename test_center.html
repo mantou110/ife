@@ -1,0 +1,57 @@
+<!-- <div style="position:relative;">
+  <div style="position:absolute;left:50%;margin-left:-200px;top:50%;margin-top:-100px;width:400px;height:200px;"></div>
+</div> -->
+
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+	<title></title>
+	<style type="text/css">
+		.container{
+			position: relative;
+			height: 100%;
+		}
+
+		.center{
+			position: absolute;
+			left: 50%;
+			margin-left: -200px;
+			top: 50%;
+			margin-top: -100px;
+			width: 400px;
+			height: 200px;
+			background: #ccc;
+		}
+
+		.top{
+			position: absolute;
+			background: #fc0;
+			height: 50px;
+			width: 50px;
+			border-radius: 0 0 50px 0;
+			top: 0px;
+			left: 0px;
+		}
+
+		.bottom{
+			position: absolute;
+			background: #fc0;
+			height: 50px;
+			width: 50px;
+			border-radius: 50px 0 0 0;
+			top: 150px;
+			left: 350px;
+		}
+	</style>
+</head>
+<body style="height: 100%;">
+
+<div class="container">
+	<div class="center">
+		<div class="top"></div>
+	    <div class="bottom"></div>
+	</div>
+</div>
+
+</body>
+</html>
